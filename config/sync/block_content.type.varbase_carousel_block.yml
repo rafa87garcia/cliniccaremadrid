@@ -1,0 +1,10 @@
+uuid: a2244360-03bf-4a76-aea7-34cfd820fbbe
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xLL_3Qnyq8pDx4PSiSADmXJygXMpqSavBLgAV94pHXk
+id: varbase_carousel_block
+label: Carrusel
+revision: 1
+description: 'A responsive and easy to customize slider block.'

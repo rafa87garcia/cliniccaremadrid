@@ -1,0 +1,20 @@
+uuid: 0c24b1ea-2e2b-40f6-9135-2dd3d6534220
+langcode: es
+status: true
+dependencies:
+  theme:
+    - vartheme_bs4
+_core:
+  default_config_hash: 1f3SKPk8jtkxF__zNY6bZUle5rMoR5qi29oHJ9jjQ6A
+id: vartheme_bs4_page_title
+theme: vartheme_bs4
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,28 @@
+uuid: ecd62063-8ade-48c8-ae28-79f5c6b7e5d8
+langcode: es
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.varbase_heroslider_media.field_brief
+    - field.field.node.varbase_heroslider_media.field_link
+    - field.field.node.varbase_heroslider_media.field_media_single
+    - node.type.varbase_heroslider_media
+  module:
+    - user
+_core:
+  default_config_hash: 6V_6rQn38hYU36togSvQ4Ba3ZdR_ltoFP0t9hHs6RdY
+id: node.varbase_heroslider_media.teaser
+targetEntityType: node
+bundle: varbase_heroslider_media
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  content_moderation_control: true
+  field_brief: true
+  field_link: true
+  field_media_single: true
+  langcode: true

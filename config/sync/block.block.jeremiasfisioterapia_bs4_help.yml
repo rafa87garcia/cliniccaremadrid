@@ -1,0 +1,22 @@
+uuid: fcdaca84-88b8-4107-8853-b59e4673b237
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: g1YUkdw0tSgf6Zgj_XBLPPe25Ed2PujymFVyC8_Dfzk
+id: jeremiasfisioterapia_bs4_help
+theme: jeremiasfisioterapia_bs4
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

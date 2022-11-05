@@ -1,0 +1,11 @@
+uuid: f66747af-760d-4c73-948d-e9aa91a9a3b9
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qEAfw1BEIYiCIjzVvQeef4uEwJlqWpguW9dxpKy0TZ4
+id: administrator
+label: 'Super Admin'
+weight: -4
+is_admin: true
+permissions: {  }

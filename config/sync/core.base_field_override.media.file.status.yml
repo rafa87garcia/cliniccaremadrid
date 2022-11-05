@@ -1,0 +1,24 @@
+uuid: 972a60d9-b456-472f-a140-8d2410980f1e
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.file
+_core:
+  default_config_hash: msBL8N4SjfVUkKEXr0WUt04uQsoo31V29IuyooqXxC4
+id: media.file.status
+field_name: status
+entity_type: media
+bundle: file
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

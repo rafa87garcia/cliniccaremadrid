@@ -1,0 +1,12 @@
+uuid: 6613a9a2-2730-424d-8aef-4fc0291e4ee8
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: uEI8Kix__L2gZU8227VUyW1W1pJ4f56UFwNr3Yl3v0M
+id: node.text_teaser_small
+label: 'Text teaser - small'
+targetEntityType: node
+cache: true

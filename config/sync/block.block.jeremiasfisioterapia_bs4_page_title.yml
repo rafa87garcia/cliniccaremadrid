@@ -1,0 +1,20 @@
+uuid: 254dc58c-7f23-40fe-8490-0113d8a9b8a8
+langcode: es
+status: true
+dependencies:
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: joVzvUb9fuFY4Md-pQeiyScXvi_1TK3qeB2tVwSZdFY
+id: jeremiasfisioterapia_bs4_page_title
+theme: jeremiasfisioterapia_bs4
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

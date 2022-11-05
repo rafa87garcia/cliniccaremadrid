@@ -1,0 +1,25 @@
+uuid: bc88f264-ec25-4afe-b7b1-70861979d286
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: ms6zI2Yz-_goG732AJgzBF2_So8_qtDE9QIzdCSN9hI
+id: jeremiasfisioterapia_bs4_branding
+theme: jeremiasfisioterapia_bs4
+region: navigation
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

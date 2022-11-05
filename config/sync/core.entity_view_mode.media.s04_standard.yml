@@ -1,0 +1,12 @@
+uuid: d0a49f5e-0f9c-4904-a479-c69f11c99179
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: dnUSfBjSu21Gv4-xvzv47q4a7m7_aM6XX2CcGX0Tlyw
+id: media.s04_standard
+label: 'Size 04 standard 16:9'
+targetEntityType: media
+cache: true

@@ -1,0 +1,27 @@
+uuid: 176184ab-419a-4064-817c-40d1016e6747
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: IYQ4CP5-CTECwgj78Bfg4ATWIowJcnXDkayRFyRdo0E
+id: jeremiasfisioterapia_bs4_footer
+theme: jeremiasfisioterapia_bs4
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

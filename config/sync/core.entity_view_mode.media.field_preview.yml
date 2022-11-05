@@ -1,0 +1,12 @@
+uuid: b7e8c6fc-f23a-4ce8-a376-3cd9a2b62132
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: Pxe1N4o8pIH-DyadGZ7ZCI2qI5UnvpcTMlj1YA4cvc0
+id: media.field_preview
+label: 'Field Preview'
+targetEntityType: media
+cache: true

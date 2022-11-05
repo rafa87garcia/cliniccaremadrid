@@ -1,0 +1,22 @@
+uuid: 3e85bcfc-d182-4617-92ec-9e6c2810a032
+langcode: es
+status: true
+dependencies:
+  theme:
+    - vartheme_claro
+_core:
+  default_config_hash: iF0GaT1P5-VzTMqVnVuE5ICKivBCXyWB48ypgtIWDj8
+id: vartheme_claro_primary_local_tasks
+theme: vartheme_claro
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

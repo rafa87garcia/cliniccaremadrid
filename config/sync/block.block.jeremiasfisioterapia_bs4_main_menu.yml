@@ -1,0 +1,27 @@
+uuid: 767d3841-e17e-43e9-9862-f47033d6a5d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: cPplcIAp3koNH7EXpozDHcU5n-uO2aCSbjYY5o2nmqY
+id: jeremiasfisioterapia_bs4_main_menu
+theme: jeremiasfisioterapia_bs4
+region: navigation_collapsible
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

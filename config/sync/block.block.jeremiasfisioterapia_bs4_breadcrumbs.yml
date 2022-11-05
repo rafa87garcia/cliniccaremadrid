@@ -1,0 +1,22 @@
+uuid: 777e7a19-7f1c-443e-9d3a-365e6d71ed91
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: P3Ze4MrD_wXYjquAGm9QTSVqD0vDZ35HfKwskK11EW8
+id: jeremiasfisioterapia_bs4_breadcrumbs
+theme: jeremiasfisioterapia_bs4
+region: header
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

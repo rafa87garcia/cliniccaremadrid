@@ -1,0 +1,9 @@
+uuid: a87f7e0e-f215-4ffc-ab05-3769827305eb
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: d29m-MS-U4QVs92wDM7IG9LVCKtMSmbRKdKxZKPcZAo
+id: flush_twig_cache_from_admin_toolbar
+label: 'Flush twig cache from admin toolbar'
+route: admin_toolbar_tools.flush_twig

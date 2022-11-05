@@ -1,0 +1,20 @@
+uuid: 72fff211-2670-467d-8fcc-be923634483a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.page
+_core:
+  default_config_hash: HzvqjFIHPiiqBcmx8qpW6yueshUqq0tPJwBhfDhRQag
+id: node.page.created
+field_name: created
+entity_type: node
+bundle: page
+label: 'Fecha de autoría'
+description: 'La fecha en que el nodo fue creado.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,22 @@
+uuid: 936c3445-6558-4d1d-87bd-1b9e8898d281
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jeremiasfisioterapia_bs4
+_core:
+  default_config_hash: J12ePl2a9Q7otCg5v8ts46MvgpEIJrusXo6zH0U35BE
+id: jeremiasfisioterapia_bs4_messages
+theme: jeremiasfisioterapia_bs4
+region: header
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
