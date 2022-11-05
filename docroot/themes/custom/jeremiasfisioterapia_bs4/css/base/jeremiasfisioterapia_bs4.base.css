@@ -1,1 +1,9 @@
 /* Insert your jeremiasfisioterapia_bs4 base overrides over Vartheme BS4 and Bootstrap */
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-toggler {
+  border: 0;
+}
