@@ -19,7 +19,7 @@
 
     section.region-footer {
       display: flex;
-      flex-flow: column;
+      flex-flow: row;
       justify-content: space-between;
 
       @media screen and (min-width: map-get($grid-breakpoints, "lg")) {
