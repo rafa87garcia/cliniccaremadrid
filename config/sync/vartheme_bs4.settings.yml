@@ -10,10 +10,10 @@ features:
   node_user_picture: true
 logo:
   use_default: true
-bootstrap_barrio_library: producción
+bootstrap_barrio_library: production
 bootstrap_barrio_source: '0'
 bootstrap_barrio_fluid_container: 0
-bootstrap_barrio_sidebar_position: ambos
+bootstrap_barrio_sidebar_position: both
 bootstrap_barrio_content_offset: 0
 bootstrap_barrio_sidebar_collapse: 0
 bootstrap_barrio_sidebar_first_width: 4
@@ -30,17 +30,17 @@ bootstrap_barrio_navbar_top_class: ''
 bootstrap_barrio_navbar_class: ''
 bootstrap_barrio_navbar_top_position: ''
 bootstrap_barrio_navbar_top_color: navbar-light
-bootstrap_barrio_navbar_top_background: bg-light
+bootstrap_barrio_navbar_top_background: bg-white
 bootstrap_barrio_navbar_position: ''
 bootstrap_barrio_navbar_color: navbar-light
-bootstrap_barrio_navbar_background: bg-light
+bootstrap_barrio_navbar_background: bg-white
 bootstrap_barrio_navbar_flyout: false
 bootstrap_barrio_navbar_slide: false
-bootstrap_barrio_messages_widget: alertas
-bootstrap_barrio_radio: estándar
-bootstrap_barrio_checkbox: estándar
-bootstrap_barrio_select: estándar
-bootstrap_barrio_file: estándar
+bootstrap_barrio_messages_widget: alerts
+bootstrap_barrio_radio: standard
+bootstrap_barrio_checkbox: standard
+bootstrap_barrio_select: standard
+bootstrap_barrio_file: standard
 bootstrap_barrio_navbar_top_affix: 0
 bootstrap_barrio_navbar_affix: 0
 bootstrap_barrio_sidebar_first_affix: 0

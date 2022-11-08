@@ -66,4 +66,7 @@ type_settings:
       - varbase_heroslider_media
       - landing_page_lb
       - varbase_blog
+      - varbase_heroslider_media
+      - landing_page_lb
+      - varbase_blog
   default_moderation_state: draft

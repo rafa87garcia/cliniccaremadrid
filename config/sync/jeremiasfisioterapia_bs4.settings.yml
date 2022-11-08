@@ -30,7 +30,7 @@ bootstrap_barrio_navbar_top_class: ''
 bootstrap_barrio_navbar_class: ''
 bootstrap_barrio_navbar_top_position: ''
 bootstrap_barrio_navbar_top_color: navbar-light
-bootstrap_barrio_navbar_top_background: bg-light
+bootstrap_barrio_navbar_top_background: bg-white
 bootstrap_barrio_navbar_position: ''
 bootstrap_barrio_navbar_color: navbar-light
 bootstrap_barrio_navbar_background: bg-white
