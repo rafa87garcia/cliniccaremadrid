@@ -54,3 +54,4 @@ yarn.lock
 
 backups/
 .vscode/
+error_log/
