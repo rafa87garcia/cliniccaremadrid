@@ -1,0 +1,14 @@
+uuid: 25d78a37-0c52-4d5e-8a56-11547ada7e95
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.subjet
+id: taxonomy_vocabulary_subjet
+entity_type_id: taxonomy_vocabulary
+entity_id: subjet
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

@@ -1,0 +1,8 @@
+uuid: 3db2a066-7600-4528-9bce-d3c6c3c0aac9
+langcode: es
+status: true
+dependencies: {  }
+name: Asunto
+vid: subjet
+description: ''
+weight: 0
