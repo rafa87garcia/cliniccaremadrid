@@ -1,6 +1,6 @@
 name: Animate On Scroll
 type: module
 description: AOS is small library to animate elements on your page as you scroll.
-package: WEBIEPNB
+package: AOS
 core_version_requirement: ^9 || ^10
 version: '1.x'
