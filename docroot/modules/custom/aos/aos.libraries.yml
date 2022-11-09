@@ -1,0 +1,12 @@
+# Custom module library for general purposes.
+aos:
+  css:
+    component:
+      '/libraries/aos/dist/aos.css': {}
+  js:
+    '/libraries/aos/dist/aos.js': {}
+    './js/aos.js': {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

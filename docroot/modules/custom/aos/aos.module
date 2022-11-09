@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for iepnb_aos module.
+ */
+
+function aos_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'aos/aos';
+}
