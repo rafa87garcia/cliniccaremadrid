@@ -63,7 +63,6 @@
   {% block navbar %}
     {%
       set navbar_classes = [
-        'mb-4',
         'border-bottom',
         'shadow-sm',
       ]
@@ -95,7 +94,7 @@
 {% endif %}
 
 {# Header print #}
-<div class="d-none d-print-block header-print page-header mt-4 mb-3">
+<div class="d-none d-print-block header-print page-header">
   <div class="{{ container }}">
     <div class="row">
       <div class="col-sm-12">
@@ -145,7 +144,7 @@
         {# Highlighted #}
         {% if page.highlighted %}
           {% block highlighted %}
-            <div class="highlighted">{{ page.highlighted }}</div>
+              <div class="highlighted">{{ page.highlighted }}</div>
           {% endblock %}
         {% endif %}
 

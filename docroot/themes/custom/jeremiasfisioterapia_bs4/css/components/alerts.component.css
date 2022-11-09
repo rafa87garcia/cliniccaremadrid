@@ -1,3 +1,7 @@
+.alert {
+  margin: 1rem 0;
+}
+
 .alert-sm {
   padding: 0.3125rem 0.625rem;
 }

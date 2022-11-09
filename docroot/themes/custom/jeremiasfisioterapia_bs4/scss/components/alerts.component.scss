@@ -6,6 +6,10 @@
 @import "../mixins";                      // jeremiasfisioterapia_bs4 mixins.
 // -----------------------------------------------------------------------------
 
+.alert {
+  @include margin(1rem 0);
+}
+
 .alert-sm {
   @include padding(0.3125rem 0.625rem);
 }
