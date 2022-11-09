@@ -18,6 +18,8 @@ services:
     type: node:16
     build:
       - "yarn install -y"
+  mailhog:
+    type: mailhog
 #  memcache:
 #    type: memcached
 #  solr:

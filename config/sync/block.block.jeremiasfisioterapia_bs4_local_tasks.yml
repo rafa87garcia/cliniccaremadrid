@@ -11,7 +11,7 @@ _core:
 id: jeremiasfisioterapia_bs4_local_tasks
 theme: jeremiasfisioterapia_bs4
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

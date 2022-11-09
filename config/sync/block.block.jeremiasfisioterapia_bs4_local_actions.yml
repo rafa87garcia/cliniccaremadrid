@@ -9,7 +9,7 @@ _core:
 id: jeremiasfisioterapia_bs4_local_actions
 theme: jeremiasfisioterapia_bs4
 region: header
-weight: -3
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:
