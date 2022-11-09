@@ -8,6 +8,7 @@
  
 .node__content {
   @include font-size($font-size-base);
+  @include margin-top($spacer);
 }
 
 // View mode teaser styles.
