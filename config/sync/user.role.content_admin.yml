@@ -2,10 +2,60 @@ uuid: b44a7286-8260-4d25-b00c-5ee99e0561ff
 langcode: es
 status: true
 dependencies:
+  config:
+    - core.entity_view_display.node.landing_page_lb.default
+    - filter.format.basic_html
+    - filter.format.full_html
+    - media.type.audio
+    - media.type.file
+    - media.type.gallery
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.landing_page_lb
+    - node.type.page
+    - node.type.varbase_blog
+    - node.type.varbase_heroslider_media
+    - workflows.workflow.varbase_editorial_workflow
+    - workflows.workflow.varbase_simple_workflow
   module:
+    - admin_audit_trail
+    - block_content_permissions
+    - coffee
+    - config_perms
+    - content_lock
+    - content_moderation
+    - contextual
+    - dropzonejs
+    - entity_browser
+    - entity_clone
+    - entityqueue
     - file
+    - filter
+    - google_analytics_reports
+    - layout_builder
+    - media
+    - media_bulk_upload
+    - media_revisions_ui
+    - menu_admin_per_menu
+    - moderation_sidebar
     - node
+    - panels
+    - panels_ipe
+    - path
+    - rabbit_hole
+    - responsive_preview
+    - scheduler
+    - shortcut
+    - statistics
     - system
+    - taxonomy
+    - taxonomy_access_fix
+    - toolbar
+    - total_control
+    - tour
+    - webform
+    - yoast_seo
 _core:
   default_config_hash: W8SfDcp6fJlMLOE4OHdC1z1qYPt_pf7-QnYxnwuCWpY
 id: content_admin

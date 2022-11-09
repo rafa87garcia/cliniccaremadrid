@@ -5,6 +5,7 @@ dependencies:
   module:
     - media
     - system
+    - taxonomy_access_fix
 _core:
   default_config_hash: o946uJlkxATOINv23-nWPvp8plQ52XpSv3tUZVv007g
 id: anonymous
@@ -15,3 +16,4 @@ permissions:
   - 'access content'
   - 'search content'
   - 'view media'
+  - 'view terms in subjet'

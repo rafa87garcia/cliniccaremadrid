@@ -2,10 +2,56 @@ uuid: 2d1caaeb-6f89-4fc1-bf93-aafd94e3749c
 langcode: es
 status: true
 dependencies:
+  config:
+    - core.entity_view_display.node.landing_page_lb.default
+    - filter.format.basic_html
+    - filter.format.full_html
+    - media.type.audio
+    - media.type.file
+    - media.type.gallery
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.landing_page_lb
+    - node.type.page
+    - node.type.varbase_blog
+    - node.type.varbase_heroslider_media
+    - taxonomy.vocabulary.blog_categories
+    - taxonomy.vocabulary.tags
+    - workflows.workflow.varbase_editorial_workflow
+    - workflows.workflow.varbase_simple_workflow
   module:
+    - admin_audit_trail
+    - coffee
+    - content_moderation
+    - contextual
+    - dropzonejs
+    - entity_browser
+    - entity_clone
+    - entityqueue
     - file
+    - filter
+    - google_analytics_reports
+    - layout_builder
+    - media
+    - media_bulk_upload
+    - moderation_sidebar
     - node
+    - panels
+    - panels_ipe
+    - path
+    - rabbit_hole
+    - responsive_preview
+    - scheduler
+    - shortcut
+    - statistics
     - system
+    - taxonomy
+    - taxonomy_access_fix
+    - toolbar
+    - total_control
+    - tour
+    - yoast_seo
 _core:
   default_config_hash: kXe1JL0tNsH62AOkORlgJS6nJppoSiT4fZYCobnIbr8
 id: editor
@@ -168,6 +214,7 @@ permissions:
   - 'view post access counter'
   - 'view scheduled content'
   - 'view terms in blog_categories'
+  - 'view terms in subjet'
   - 'view terms in tags'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
