@@ -56,9 +56,9 @@ bootstrap_barrio_table_head: ''
 bootstrap_barrio_image_fluid: false
 bootstrap_barrio_tabs_style: ''
 bootstrap_barrio_region_clean_navigation: 0
-bootstrap_barrio_region_class_navigation: row
+bootstrap_barrio_region_class_navigation: ''
 bootstrap_barrio_region_clean_navigation_collapsible: 0
-bootstrap_barrio_region_class_navigation_collapsible: row
+bootstrap_barrio_region_class_navigation_collapsible: ''
 bootstrap_barrio_region_clean_header: 1
 bootstrap_barrio_region_class_header: ''
 bootstrap_barrio_region_clean_highlighted: 1
@@ -74,9 +74,9 @@ bootstrap_barrio_region_class_sidebar_second: ''
 bootstrap_barrio_region_clean_footer: 0
 bootstrap_barrio_region_class_footer: ''
 bootstrap_barrio_region_clean_page_top: 0
-bootstrap_barrio_region_class_page_top: row
+bootstrap_barrio_region_class_page_top: ''
 bootstrap_barrio_region_clean_page_bottom: 0
-bootstrap_barrio_region_class_page_bottom: row
+bootstrap_barrio_region_class_page_bottom: ''
 email_logo_default: 0
 email_logo_path: ''
 email_logo_upload: {  }
