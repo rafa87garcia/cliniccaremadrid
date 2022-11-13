@@ -44,7 +44,6 @@ dependencies:
     - responsive_preview
     - scheduler
     - shortcut
-    - statistics
     - system
     - taxonomy
     - taxonomy_access_fix
@@ -211,7 +210,6 @@ permissions:
   - 'view own unpublished content'
   - 'view page revisions'
   - 'view pane admin links'
-  - 'view post access counter'
   - 'view scheduled content'
   - 'view terms in blog_categories'
   - 'view terms in subjet'

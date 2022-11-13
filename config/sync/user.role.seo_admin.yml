@@ -41,7 +41,6 @@ dependencies:
     - script_manager
     - shortcut
     - simple_sitemap
-    - statistics
     - system
     - toolbar
     - total_control
@@ -164,7 +163,6 @@ permissions:
   - 'view latest version'
   - 'view own unpublished content'
   - 'view page revisions'
-  - 'view post access counter'
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'

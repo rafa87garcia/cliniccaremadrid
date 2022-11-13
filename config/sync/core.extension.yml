@@ -94,6 +94,7 @@ module:
   google_analytics: 0
   google_analytics_reports: 0
   google_analytics_reports_api: 0
+  google_index_api: 0
   google_tag: 0
   help: 0
   honeypot: 0
@@ -201,7 +202,6 @@ module:
   slick_views: 0
   smart_trim: 0
   social_media_links: 0
-  statistics: 0
   swiftmailer: 0
   syslog: 0
   system: 0
