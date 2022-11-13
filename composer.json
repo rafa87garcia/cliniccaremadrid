@@ -34,8 +34,8 @@
     "vardot/varbase": "~9.0",
     "vardot/varbase-updater": "~2.0",
     "drupal/social_media_links": "^2.9",
-    "drupal/smtp": "^1.2",
-    "phpmailer/phpmailer": "^6.6"
+    "drupal/backup_migrate": "^5.0",
+    "drupal/smtp": "^1.2"
   },
   "require-dev": {
     "drupal/core-dev": "~9.0",
