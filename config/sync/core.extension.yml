@@ -180,6 +180,7 @@ module:
   revision_log_default: 0
   rh_node: 0
   rh_taxonomy: 0
+  robotstxt: 0
   roleassign: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0
