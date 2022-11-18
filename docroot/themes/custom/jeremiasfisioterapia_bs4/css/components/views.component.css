@@ -3,7 +3,7 @@
 }
 .views-displays .tabs .open > a:hover,
 .views-displays .tabs .open > a:focus {
-  color: #28a745;
+  color: #244623;
 }
 .views-displays .tabs .action-list {
   padding: 0;
@@ -17,9 +17,9 @@
 }
 
 .views-ui-display-tab-actions .dropbutton .form-submit {
-  color: #19692c;
+  color: #0a130a;
 }
 .views-ui-display-tab-actions .dropbutton .form-submit:hover,
 .views-ui-display-tab-actions .dropbutton .form-submit:focus {
-  color: #28a745;
+  color: #244623;
 }
