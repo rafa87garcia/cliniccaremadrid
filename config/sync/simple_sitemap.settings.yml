@@ -14,4 +14,5 @@ enabled_entity_types:
   - node
   - taxonomy_term
   - menu_link_content
+  - webform_submission
 batch_process_limit: 1500
