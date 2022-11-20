@@ -21,135 +21,135 @@ settings:
     instagram:
       value: geremias_fisioterapia_
       description: ''
-      weight: '-44'
+      weight: '-43'
+    linkedin:
+      value: in/geremia-crispino-308bb0131
+      description: ''
+      weight: '-42'
     contact:
       value: ''
       description: ''
-      weight: '-43'
+      weight: '-41'
     glassdoor:
       value: ''
       description: ''
-      weight: '-42'
+      weight: '-40'
     flickr:
       value: ''
       description: ''
-      weight: '-41'
+      weight: '-39'
     patreon:
       value: ''
       description: ''
-      weight: '-40'
+      weight: '-38'
     bitbucket:
       value: ''
       description: ''
-      weight: '-39'
-    linkedin:
-      value: ''
-      description: ''
-      weight: '-38'
+      weight: '-37'
     googleplus:
       value: ''
       description: ''
-      weight: '-37'
+      weight: '-36'
     goodreads:
       value: ''
       description: ''
-      weight: '-36'
+      weight: '-35'
     gitlab:
       value: ''
       description: ''
-      weight: '-35'
+      weight: '-34'
     pinterest:
       value: ''
       description: ''
-      weight: '-34'
+      weight: '-33'
     facebook:
       value: ''
       description: ''
-      weight: '-33'
+      weight: '-32'
     rss:
       value: ''
       description: ''
-      weight: '-32'
+      weight: '-31'
     vkontakte:
       value: ''
       description: ''
-      weight: '-31'
+      weight: '-30'
     behance:
       value: ''
       description: ''
-      weight: '-30'
+      weight: '-29'
     youtube_channel:
       value: ''
       description: ''
-      weight: '-29'
+      weight: '-28'
     meetup:
       value: ''
       description: ''
-      weight: '-28'
+      weight: '-27'
     email:
       value: ''
       description: ''
-      weight: '-27'
+      weight: '-26'
     whatsapp:
       value: ''
       description: ''
-      weight: '-26'
+      weight: '-25'
     twitter:
       value: ''
       description: ''
-      weight: '-25'
+      weight: '-24'
     tumblr:
       value: ''
       description: ''
-      weight: '-24'
+      weight: '-23'
     amazon:
       value: ''
       description: ''
-      weight: '-23'
+      weight: '-22'
     website:
       value: ''
       description: ''
-      weight: '-22'
+      weight: '-21'
     telegram:
       value: ''
       description: ''
-      weight: '-21'
+      weight: '-20'
     googleplay:
       value: ''
       description: ''
-      weight: '-20'
+      weight: '-19'
     vimeo:
       value: ''
       description: ''
-      weight: '-19'
+      weight: '-18'
     youtube:
       value: ''
       description: ''
-      weight: '-18'
+      weight: '-17'
     slideshare:
       value: ''
       description: ''
-      weight: '-17'
+      weight: '-16'
     drupal:
       value: ''
       description: ''
-      weight: '-16'
+      weight: '-15'
     xing:
       value: ''
       description: ''
-      weight: '-15'
+      weight: '-14'
     github:
       value: ''
       description: ''
-      weight: '-14'
+      weight: '-13'
     mastodon:
       value: ''
       description: ''
-      weight: '-13'
+      weight: '-12'
     tiktok:
       value: ''
       description: ''
-      weight: '-12'
+      weight: '-11'
   appearance:
     orientation: h
     show_name: 0
