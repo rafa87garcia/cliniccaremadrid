@@ -20,7 +20,7 @@ base_field: vid
 display:
   default:
     id: default
-    display_title: Máster
+    display_title: Master
     display_plugin: default
     position: 0
     display_options:
@@ -76,7 +76,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Acción
+          action_title: Action
           include_exclude: exclude
           selected_actions: {  }
         title:
@@ -89,7 +89,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Título
+          label: Title
           exclude: false
           alter:
             alter_text: false
@@ -312,7 +312,7 @@ display:
           settings:
             format: custom
             format_custom_false: 'Sin publicar'
-            format_custom_true: Publicado
+            format_custom_true: Published
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -525,8 +525,8 @@ display:
         options:
           submit_button: Filtro
           reset_button: true
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -607,7 +607,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Título
+            label: Title
             description: ''
             use_operator: false
             operator: title_op
@@ -720,7 +720,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Publicado
+                title: Published
                 operator: '='
                 value: '1'
               2:

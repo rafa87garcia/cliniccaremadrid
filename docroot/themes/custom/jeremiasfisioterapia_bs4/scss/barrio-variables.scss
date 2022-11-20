@@ -16,3 +16,7 @@ $accent-dark: darken($accent-shade, 12%);
 // Comments
 $comment-spacer-x: 1.25em;
 $comment-spacer-y: 1.25em;
+
+.text-shadow {
+    text-shadow: 1px 1px 4px $black;
+}

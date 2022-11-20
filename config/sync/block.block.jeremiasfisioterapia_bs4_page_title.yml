@@ -9,7 +9,7 @@ _core:
 id: jeremiasfisioterapia_bs4_page_title
 theme: jeremiasfisioterapia_bs4
 region: header
-weight: -2
+weight: -3
 provider: null
 plugin: page_title_block
 settings:

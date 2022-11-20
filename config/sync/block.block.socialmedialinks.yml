@@ -1,4 +1,4 @@
-uuid: cb4dfdd8-0731-4bcb-b821-d1b6dafcb964
+uuid: ce60a3b4-5b14-4108-8090-1d808054afab
 langcode: es
 status: true
 dependencies:
@@ -8,8 +8,8 @@ dependencies:
     - jeremiasfisioterapia_bs4
 id: socialmedialinks
 theme: jeremiasfisioterapia_bs4
-region: footer
-weight: 0
+region: top_right
+weight: -6
 provider: null
 plugin: social_media_links_block
 settings:
@@ -19,7 +19,7 @@ settings:
   provider: social_media_links
   platforms:
     instagram:
-      value: jeremias_fisioterapia_
+      value: geremias_fisioterapia_
       description: ''
       weight: '-44'
     contact:
@@ -155,8 +155,8 @@ settings:
     show_name: 0
     suggestion: ''
   link_attributes:
-    target: _blank
-    rel: nofollow
+    target: '<none>'
+    rel: '<none>'
   iconset:
     style: 'fontawesome:2x'
     installed_iconsets:

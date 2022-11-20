@@ -58,6 +58,16 @@
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {% set header_container = theme.settings.header_container ? 'container-fluid header-margin' : 'container' %}
+  <div class="bg-light">
+    <div class="container d-flex justifty-content-between">
+    {% if page.top_left %}
+      {{ page.top_left }}
+    {% endif %}
+      {% if page.top_right %}
+      {{ page.top_right }}
+    {% endif %}
+    </div>
+  </div>
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -95,6 +105,7 @@
 {% endif %}
 
 {# Header print #}
+
 <div class="d-none d-print-block header-print page-header">
   <div class="{{ container }}">
     <div class="row">

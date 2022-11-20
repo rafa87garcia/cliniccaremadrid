@@ -23,7 +23,7 @@ base_field: mid
 display:
   default:
     id: default
-    display_title: Máster
+    display_title: Master
     display_plugin: default
     position: 0
     display_options:
@@ -210,17 +210,17 @@ display:
             items_per_page_label: Elementos
             items_per_page_options: '6, 12, 18,  24, 30'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Todo -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Desplazamiento
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
         options:
           submit_button: Buscar
           reset_button: true
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -522,7 +522,7 @@ display:
             items_per_page_label: Elementos
             items_per_page_options: '6, 12, 18,  24, 30'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Todo -'
+            items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: 'Skip first'
           quantity: 9
@@ -531,8 +531,8 @@ display:
         options:
           submit_button: Buscar
           reset_button: true
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -767,7 +767,7 @@ display:
             items_per_page_label: Elementos
             items_per_page_options: '4, 8, 12, 16, 24'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Todo -'
+            items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: 'Skip first'
           quantity: 9
@@ -776,8 +776,8 @@ display:
         options:
           submit_button: Buscar
           reset_button: true
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc

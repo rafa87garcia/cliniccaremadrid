@@ -1,4 +1,4 @@
-uuid: d4d9f85b-e003-432c-a79c-6537460695c7
+uuid: 57fe2ee2-7a40-4733-91c4-0bb59efc991f
 langcode: es
 status: true
 dependencies:
@@ -6,12 +6,10 @@ dependencies:
     - system
   theme:
     - jeremiasfisioterapia_bs4
-_core:
-  default_config_hash: LpikK1SHx9VFivHKQnlzalelPUKnIw-8RLz7Jwvch-c
-id: jeremiasfisioterapia_bs4_local_tasks
+id: tabs
 theme: jeremiasfisioterapia_bs4
-region: header
-weight: -1
+region: content
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:
@@ -25,5 +23,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    context_mapping: {  }
-    pages: '/node/*'
+    pages: '<front>'

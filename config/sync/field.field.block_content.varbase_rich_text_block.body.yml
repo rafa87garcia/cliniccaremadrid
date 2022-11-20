@@ -20,7 +20,7 @@ id: block_content.varbase_rich_text_block.body
 field_name: body
 entity_type: block_content
 bundle: varbase_rich_text_block
-label: Cuerpo
+label: Body
 description: ''
 required: true
 translatable: true

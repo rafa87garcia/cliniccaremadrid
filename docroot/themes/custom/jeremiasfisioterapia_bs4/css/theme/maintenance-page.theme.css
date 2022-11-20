@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 /* Insert your jeremiasfisioterapia_bs4 maintenance page custom SASS styling. */
 .maintenance-page footer .footer-credits {
   font-size: 0.75rem;

@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 .varicon.varicon-refresh:before {
   display: block;
   width: 28px;

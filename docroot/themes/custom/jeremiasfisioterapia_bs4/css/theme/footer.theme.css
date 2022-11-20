@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 /* Insert your jeremiasfisioterapia_bs4 footer custom SASS styling. */
 .footer-wrapper {
   margin-top: auto;
@@ -35,8 +39,8 @@
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  padding: 1rem 1rem 0 1rem;
 }
 .footer-wrapper .footer section.region-footer .menu--footer ul.nav li {
   padding: 0 1rem;

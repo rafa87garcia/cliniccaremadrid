@@ -10,7 +10,7 @@ id: node.varbase_heroslider_media.status
 field_name: status
 entity_type: node
 bundle: varbase_heroslider_media
-label: Publicado
+label: Published
 description: ''
 required: false
 translatable: false

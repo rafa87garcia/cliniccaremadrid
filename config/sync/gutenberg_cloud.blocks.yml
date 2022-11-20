@@ -1,0 +1,45 @@
+'@frontkom/g-feature-box':
+  name: '@frontkom/g-feature-box'
+  version: 0.1.0
+  label: 'Feature Box'
+  description: 'A composition block for Gutenberg Cloud'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: build/editor.css
+  view_css: build/style.css
+'@frontkom/g-content-in-columns':
+  name: '@frontkom/g-content-in-columns'
+  version: 0.4.5
+  label: 'Content in columns'
+  description: 'A custom block for Gutenberg Cloud'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/g-section':
+  name: '@frontkom/g-section'
+  version: 0.4.3
+  label: 'Section wrapper'
+  description: 'A customizable wrapper for your blocks'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css
+'@frontkom/section-row':
+  name: '@frontkom/section-row'
+  version: 0.2.0
+  label: 'Section Row'
+  description: 'A collection of blocks that compose together to create flexible sections.'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: build/editor.css
+  view_css: build/style.css
+editor-blocks-pricing-table:
+  name: editor-blocks-pricing-table
+  version: 0.0.9
+  label: 'Pricing Table Block'
+  description: 'A pricing table block for Gutenberg Cloud'
+  screenshot: screenshot.png
+  js: build/index.js
+  edit_css: null
+  view_css: build/style.css

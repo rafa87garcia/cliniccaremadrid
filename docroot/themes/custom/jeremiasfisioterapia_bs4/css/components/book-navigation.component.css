@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 .book-navigation .menu {
   padding-top: 1rem;
   padding-bottom: 0;

@@ -28,6 +28,7 @@ bootstrap-styles:
     base:
       css/base/bootstrap.base.css: {}
       css/base/bootstrap5-utilities.base.css: {}
+      node_modules/bootstrap-icons/font/bootstrap-icons.css: {}
     component:
       css/components/contextual.component.css: {}
       css/components/details.component.css: {}

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 :root {
   --blue: #007bff;
   --breakpoint-lg: 992px;

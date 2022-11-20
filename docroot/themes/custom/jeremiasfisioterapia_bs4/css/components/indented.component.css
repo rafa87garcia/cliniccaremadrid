@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 .indented {
   margin-left: 1.5rem;
   /* LTR */

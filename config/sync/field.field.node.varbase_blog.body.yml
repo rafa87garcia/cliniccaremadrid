@@ -13,7 +13,7 @@ id: node.varbase_blog.body
 field_name: body
 entity_type: node
 bundle: varbase_blog
-label: Cuerpo
+label: Body
 description: ''
 required: true
 translatable: true

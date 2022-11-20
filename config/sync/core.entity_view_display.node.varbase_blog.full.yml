@@ -741,7 +741,7 @@ third_party_settings:
             region: blb_region_col_1
             configuration:
               id: 'field_block:node:varbase_blog:body'
-              label: Cuerpo
+              label: Body
               label_display: '0'
               provider: layout_builder
               context_mapping:

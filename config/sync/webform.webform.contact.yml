@@ -37,11 +37,12 @@ elements: |-
     '#required': true
     '#default_value': '[current-user:mail]'
   subject:
-    '#type': webform_term_select
+    '#type': select
     '#title': Asunto
+    '#options':
+      Consulta: Consulta
+      Sesiones: Sesiones
     '#required': true
-    '#vocabulary': subjet
-    '#breadcrumb_delimiter': ''
   message:
     '#type': textarea
     '#title': Mensaje

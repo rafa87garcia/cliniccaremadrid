@@ -44,8 +44,8 @@
           display: flex;
           flex-flow: row;
           justify-content: center;
+          align-items: center;
           flex-wrap: wrap;
-          @include padding($spacer $spacer 0 $spacer);
 
           li {
             @include padding(0 $spacer);

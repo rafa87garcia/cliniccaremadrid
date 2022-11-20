@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
 .password-strength__meter {
   margin-top: 0.5em;
   background-color: #e9ecef;
