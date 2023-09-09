@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c483106b9b48f8d99fb9a3b2e0c6676",
+    "content-hash": "d659a050a450d1ab5cdabb3d50db8c8c",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -14952,17 +14952,17 @@
         },
         {
             "name": "drupal/vartheme_bs4",
-            "version": "9.0.19",
+            "version": "9.0.25",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/vartheme_bs4.git",
-                "reference": "9.0.19"
+                "reference": "9.0.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/vartheme_bs4-9.0.19.zip",
-                "reference": "9.0.19",
-                "shasum": "0d8bcfe8fac847d00a1a5db881bd6f5c29e81621"
+                "url": "https://ftp.drupal.org/files/projects/vartheme_bs4-9.0.25.zip",
+                "reference": "9.0.25",
+                "shasum": "d004963cdfeb329355efeef7981045d187259ee7"
             },
             "require": {
                 "composer/installers": "~2.0",
@@ -14974,8 +14974,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "9.0.19",
-                    "datestamp": "1666779870",
+                    "version": "9.0.25",
+                    "datestamp": "1687628204",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -14986,7 +14986,8 @@
                     "npm-asset"
                 ],
                 "enable-patching": true,
-                "composer-exit-on-patch-failure": true
+                "composer-exit-on-patch-failure": true,
+                "patches": []
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -15001,10 +15002,6 @@
                 {
                     "name": "Rajab Natshah",
                     "homepage": "https://www.drupal.org/user/1414312"
-                },
-                {
-                    "name": "waleedq",
-                    "homepage": "https://www.drupal.org/user/375290"
                 }
             ],
             "description": "A SASS base theme for Varbase standard websites. Based on Barrio (Bootstrap 4) theme.",
