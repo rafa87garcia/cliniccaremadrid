@@ -55,9 +55,9 @@ bootstrap_barrio_table_hover: 1
 bootstrap_barrio_table_head: ''
 bootstrap_barrio_image_fluid: false
 bootstrap_barrio_tabs_style: ''
-bootstrap_barrio_region_clean_navigation: 0
+bootstrap_barrio_region_clean_navigation: 1
 bootstrap_barrio_region_class_navigation: row
-bootstrap_barrio_region_clean_navigation_collapsible: 0
+bootstrap_barrio_region_clean_navigation_collapsible: 1
 bootstrap_barrio_region_class_navigation_collapsible: row
 bootstrap_barrio_region_clean_header: 1
 bootstrap_barrio_region_class_header: ''

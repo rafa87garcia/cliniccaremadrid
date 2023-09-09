@@ -3,3 +3,8 @@ theme: current
 defaults:
   sender: swiftmailer
   formatter: swiftmailer
+modules:
+  swiftmailer:
+    none:
+      sender: swiftmailer
+      formatter: swiftmailer
