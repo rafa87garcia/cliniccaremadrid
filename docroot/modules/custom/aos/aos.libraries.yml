@@ -2,10 +2,9 @@
 aos:
   css:
     component:
-      '/libraries/aos/dist/aos.css': {}
+      '/libraries/aos/dist/dist/aos.css': {}
   js:
-    '/libraries/aos/dist/aos.js': {}
-    './js/aos.js': {}
+    '/libraries/aos/dist/dist/aos.js': {}
   dependencies:
     - core/jquery
     - core/drupal
