@@ -71,7 +71,7 @@
   max-width: calc(3.625rem + 28.5vw);
   margin: 0 auto;
   padding: 1rem 1rem;
-  border-radius: 0.3rem;
+  border-radius: 3.3rem;
   background: white;
 }
 @media (min-width: 1200px) {

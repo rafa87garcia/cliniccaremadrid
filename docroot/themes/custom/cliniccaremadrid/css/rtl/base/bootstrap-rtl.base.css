@@ -30,14 +30,14 @@ body .checkbox label {
   padding-left: inherit;
 }
 body .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
-  border-radius: 0 0.25rem 0.25rem 0;
+  border-radius: 0 3.25rem 3.25rem 0;
 }
 body .btn-group > .btn:last-child:not(:first-child),
 body .btn-group > .dropdown-toggle:not(:first-child) {
-  border-radius: 0.25rem 0 0 0.25rem;
+  border-radius: 3.25rem 0 0 3.25rem;
 }
 body .btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
-  border-radius: 0.25rem 0 0 0.25rem;
+  border-radius: 3.25rem 0 0 3.25rem;
 }
 body .custom-control-label::after,
 body .custom-control-label::before {
@@ -53,29 +53,29 @@ body .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.
 body .input-group > .input-group-append:last-child > .input-group-text:not(:last-child),
 body .input-group > .input-group-append:not(:last-child) > .btn,
 body .input-group > .input-group-append:not(:last-child) > .input-group-text {
-  border-radius: 0 0.25rem 0.25rem 0;
+  border-radius: 0 3.25rem 3.25rem 0;
 }
 body .input-group > .input-group-append > .btn,
 body .input-group > .input-group-append > .input-group-text {
-  border-radius: 0 0.25rem 0.25rem 0;
+  border-radius: 0 3.25rem 3.25rem 0;
 }
 body .input-group > .input-group-append > .btn,
 body .input-group > .input-group-append > .input-group-text {
-  border-radius: 0.25rem 0 0 0.25rem;
+  border-radius: 3.25rem 0 0 3.25rem;
 }
 body .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 body .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child),
 body .input-group > .input-group-prepend:not(:first-child) > .btn,
 body .input-group > .input-group-prepend:not(:first-child) > .input-group-text {
-  border-radius: 0.25rem 0 0 0.25rem;
+  border-radius: 3.25rem 0 0 3.25rem;
 }
 body .input-group > .custom-select:not(:first-child),
 body .input-group > .form-control:not(:first-child) {
-  border-radius: 0.25rem 0 0 0.25rem;
+  border-radius: 3.25rem 0 0 3.25rem;
 }
 body .input-group > .custom-select:not(:last-child),
 body .input-group > .form-control:not(:last-child) {
-  border-radius: 0 0.25rem 0.25rem 0;
+  border-radius: 0 3.25rem 3.25rem 0;
 }
 body .input-group > .custom-select:not(:last-child):not(:first-child),
 body .input-group > .form-control:not(:last-child):not(:first-child) {
@@ -137,37 +137,37 @@ body .form-check-label {
 }
 body .pagination .page-item:first-child .page-link {
   border-top-left-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 3.25rem;
+  border-bottom-right-radius: 3.25rem;
   border-bottom-left-radius: 0;
 }
 body .pagination .page-item:last-child .page-link {
-  border-top-left-radius: 0.25rem;
+  border-top-left-radius: 3.25rem;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-left-radius: 3.25rem;
 }
 body .pagination-sm .page-item:first-child .page-link {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem;
+  border-top-right-radius: 3.2rem;
+  border-bottom-right-radius: 3.2rem;
 }
 body .pagination-sm .page-item:last-child .page-link {
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
+  border-top-left-radius: 3.2rem;
+  border-bottom-left-radius: 3.2rem;
 }
 body .pagination-lg .page-item:first-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 3.3rem;
+  border-bottom-right-radius: 3.3rem;
 }
 body .pagination-lg .page-item:last-child .page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 3.3rem;
+  border-bottom-left-radius: 3.3rem;
 }
 body .input-group > .custom-file:not(:last-child) .custom-file-label,
 body .input-group > .custom-file:not(:last-child) .custom-file-label::after {
   border-top-left-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 3.25rem;
+  border-bottom-right-radius: 3.25rem;
   border-bottom-left-radius: 0;
 }
 body .offset-1 {

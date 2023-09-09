@@ -29,7 +29,9 @@
 }
 
 .navbar-brand .site-logo {
+  font-family: "Rufina";
   @include margin-right(1rem);
+  @include margin-left(1rem);
 }
 
 @media (max-width: 33.9em) {

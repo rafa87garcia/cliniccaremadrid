@@ -1,1 +1,31 @@
 /* Insert your cliniccaremadrid base overrides over Vartheme BS4 and Bootstrap */
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rufina";
+}
+
+.display-5 {
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  font-family: "Rufina";
+  font-size: 2rem;
+}
+
+.slick-arrow::before {
+  color: #124d5f;
+}
