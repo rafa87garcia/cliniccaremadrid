@@ -1,0 +1,9 @@
+// cliniccaremadrid base, which Bootstrap overrides.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // cliniccaremadrid variables.
+@import "../mixins";                      // cliniccaremadrid mixins.
+// -----------------------------------------------------------------------------
+
+/* Insert your cliniccaremadrid base overrides over Vartheme BS4 and Bootstrap */

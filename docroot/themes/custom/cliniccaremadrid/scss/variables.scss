@@ -1,0 +1,38 @@
+//
+// cliniccaremadrid Variables overrides.
+// --------------------------------------------------
+
+
+// #############################################################################
+// Bootstrap library standard variables.
+// #############################################################################
+// All variables which are used in the default bootstrap library.
+// You can change them in cliniccaremadrid for the bootstrap-variables.sass
+//
+@import "bootstrap-variables"; // Bootstrap custom variables overrides in cliniccaremadrid.
+@import "../node_modules/bootstrap/scss/variables"; // Bootstrap standard variables.
+
+// #############################################################################
+// Barrio custom variables.
+// #############################################################################
+// All needed custom variables for Bootstrap Barrio theme.
+// You can change them in cliniccaremadrid in the bootstrap-variables.sass
+//
+@import "barrio-variables"; // Barrio custom variables overrides in cliniccaremadrid.
+
+
+// #############################################################################
+// Vartheme BS4 custom variables
+// #############################################################################
+// All needed custom Vartheme bs4 variables
+// You can change them in cliniccaremadrid in the vartheme_bs4-variables.sass
+//
+@import "vartheme_bs4-variables"; // Vartheme BS4 custom variables overrides in cliniccaremadrid.
+
+
+// #############################################################################
+// cliniccaremadrid custom needed variables
+// #############################################################################
+// Add custom needed cliniccaremadrid variables.
+// In the generated cliniccaremadrid not in Vartheme BS4 base theme.
+//

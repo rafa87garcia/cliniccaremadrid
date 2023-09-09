@@ -1,0 +1,165 @@
+type: theme
+base theme: vartheme_bs4
+name: "cliniccaremadrid - Subtheme of Vartheme (Bootstrap 4 - SASS)"
+description: "Based on Bootstrap 4 framework using SASS, and extending Vartheme (Bootstrap 4 - SASS)."
+project: vartheme_bs4
+core_version_requirement: ^9 || ^10
+logo: logo.png
+regions:
+  navigation: "Navigation"
+  navigation_collapsible: "Navigation Collapsible"
+  header: "Top Bar"
+  highlighted: "Highlighted"
+  help: "Help"
+  content: "Content"
+  sidebar_first: "Primary"
+  sidebar_second: "Secondary"
+  footer: "Footer"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
+libraries:
+  # Bootstrap styles and scripts libraries.
+  - cliniccaremadrid/bootstrap-styles
+  - cliniccaremadrid/bootstrap-scripts
+  # cliniccaremadrid Global styles and scripts libraries.
+  - cliniccaremadrid/global-styles
+  - cliniccaremadrid/global-scripts
+  - cliniccaremadrid/framework
+  # cliniccaremadrid Varbase Media Hero Slider style.
+  - cliniccaremadrid/heroslider
+  # Fonts: Uncomment the following if you want to use the roboto font.
+  #- cliniccaremadrid/roboto
+libraries-override:
+  vartheme_bs4/framework: false
+  vartheme_bs4/bootstrap-styles: false
+  vartheme_bs4/bootstrap-scripts: false
+  vartheme_bs4/global-styles: false
+  vartheme_bs4/global-scripts: false
+  # Heroslider: Uncomment the following to disable the vartheme_bs4/heroslider
+  #             Library if it was enabled in vartheme_bs4 heroslider styling.
+  # vartheme_bs4/heroslider: false
+
+  vartheme_bs4/breadcrumb: cliniccaremadrid/breadcrumb
+  vartheme_bs4/dropbutton: cliniccaremadrid/dropbutton
+  vartheme_bs4/book-navigation: cliniccaremadrid/book-navigation
+  vartheme_bs4/file: cliniccaremadrid/file
+  vartheme_bs4/form: cliniccaremadrid/form
+  vartheme_bs4/search-form: cliniccaremadrid/search-form
+  vartheme_bs4/indented: cliniccaremadrid/indented
+  vartheme_bs4/maintenance_page: cliniccaremadrid/maintenance_page
+  vartheme_bs4/node: cliniccaremadrid/node
+  vartheme_bs4/sidebar-collapse: cliniccaremadrid/sidebar-collapse
+  vartheme_bs4/tabs: cliniccaremadrid/tabs
+  vartheme_bs4/verticaltabs: cliniccaremadrid/verticaltabs
+  vartheme_bs4/affix: cliniccaremadrid/affix
+  vartheme_bs4/alerts: cliniccaremadrid/alerts
+  vartheme_bs4/fontawesome: cliniccaremadrid/fontawesome
+  vartheme_bs4/moderation-state: cliniccaremadrid/moderation-state
+
+  # Varbase module components overrides in cliniccaremadrid.
+  varbase_bootstrap_paragraphs/vbp-colors: cliniccaremadrid/vbp-colors
+  betterlogin/betterlogin_css: cliniccaremadrid/betterlogin
+  varbase_heroslider_media/general-styling: cliniccaremadrid/heroslider
+
+  # Change the default social auth style and icons.
+  social_auth/auth-icons: cliniccaremadrid/auth-icons
+
+  vartheme_bs4/drupal.node.preview: cliniccaremadrid/drupal.node.preview
+  vartheme_bs4/comments: cliniccaremadrid/comments
+  vartheme_bs4/navbar.admin: cliniccaremadrid/navbar.admin
+
+ckeditor_stylesheets:
+  # Base
+  - css/base/bootstrap.base.css
+  - css/base/bootstrap5-utilities.base.css
+  - css/base/vartheme_bs4.base.css
+  # Components
+  - css/components/ajax.component.css
+  - css/components/alerts.component.css
+  - css/components/autocomplete.component.css
+  - css/components/bs-callouts.component.css
+  - css/components/contextual.component.css
+  - css/components/details.component.css
+  - css/components/feed-icon.component.css
+  - css/components/field.component.css
+  - css/components/file.component.css
+  - css/components/header.component.css
+  - css/components/help.component.css
+  - css/components/icons.component.css
+  - css/components/image-button.component.css
+  - css/components/item-list.component.css
+  - css/components/list-group.component.css
+  - css/components/navbar.component.css
+  - css/components/node.component.css
+  - css/components/page.component.css
+  - css/components/progress-bar.component.css
+  - css/components/shortcut.component.css
+  - css/components/sidebar.component.css
+  - css/components/site-footer.component.css
+  - css/components/skip-link.component.css
+  - css/components/table.component.css
+  - css/components/tabledrag.component.css
+  - css/components/tableselect.component.css
+  - css/components/tablesort.component.css
+  - css/components/tablesort-indicator.component.css
+  - css/components/textarea.component.css
+  - css/components/ui-dialog.component.css
+  - css/components/ui-widget.component.css
+  - css/components/user.component.css
+  - css/components/varicons.component.css
+  - css/components/vb-tags.component.css
+  - css/components/views.component.css
+  - fonts/fontawesome-free/css/all.min.css
+  # Layout
+  - css/layout/edge2edge.layout.css
+  - css/layout/equal-height.layout.css
+  # Theme
+  - css/theme/content.theme.css
+
+ckeditor5-stylesheets:
+  # Base
+  - css/base/bootstrap.base.css
+  - css/base/bootstrap5-utilities.base.css
+  - css/base/vartheme_bs4.base.css
+  # Components
+  - css/components/ajax.component.css
+  - css/components/alerts.component.css
+  - css/components/autocomplete.component.css
+  - css/components/bs-callouts.component.css
+  - css/components/contextual.component.css
+  - css/components/details.component.css
+  - css/components/feed-icon.component.css
+  - css/components/field.component.css
+  - css/components/file.component.css
+  - css/components/header.component.css
+  - css/components/help.component.css
+  - css/components/icons.component.css
+  - css/components/image-button.component.css
+  - css/components/item-list.component.css
+  - css/components/list-group.component.css
+  - css/components/navbar.component.css
+  - css/components/node.component.css
+  - css/components/page.component.css
+  - css/components/progress-bar.component.css
+  - css/components/shortcut.component.css
+  - css/components/sidebar.component.css
+  - css/components/site-footer.component.css
+  - css/components/skip-link.component.css
+  - css/components/table.component.css
+  - css/components/tabledrag.component.css
+  - css/components/tableselect.component.css
+  - css/components/tablesort.component.css
+  - css/components/tablesort-indicator.component.css
+  - css/components/textarea.component.css
+  - css/components/ui-dialog.component.css
+  - css/components/ui-widget.component.css
+  - css/components/user.component.css
+  - css/components/varicons.component.css
+  - css/components/vb-tags.component.css
+  - css/components/views.component.css
+  - fonts/fontawesome-free/css/all.min.css
+  # Layout
+  - css/layout/edge2edge.layout.css
+  - css/layout/equal-height.layout.css
+  # Theme
+  - css/theme/content.theme.css
