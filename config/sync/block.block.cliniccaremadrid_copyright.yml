@@ -1,17 +1,18 @@
-uuid: a4fee0d5-3d85-4f60-8bc4-d04c972bf713
+uuid: 23a05274-67da-4443-b83c-03df62c61b84
 langcode: es
 status: true
 dependencies:
   content:
     - 'block_content:basic:b858d97d-eaa5-4cfe-af6f-b92c21bbca95'
   module:
+    - block_class
     - block_content
   theme:
-    - jeremiasfisioterapia_bs4
+    - cliniccaremadrid
 _core:
-  default_config_hash: kAssP5stnS1xptFydW9GFFQlWKcetAVFquTTllccQxM
-id: jeremiasfisioterapia_bs4_copyright
-theme: jeremiasfisioterapia_bs4
+  default_config_hash: O3kg7pjBoNUiJc2-iLlUExytaEkF-WrBmAwZm_eiTwg
+id: cliniccaremadrid_copyright
+theme: cliniccaremadrid
 region: footer
 weight: -5
 provider: null

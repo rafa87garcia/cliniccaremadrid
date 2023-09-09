@@ -1,15 +1,17 @@
-uuid: 57fe2ee2-7a40-4733-91c4-0bb59efc991f
+uuid: 3f135967-8550-4d5c-bedd-d4d0054ee30b
 langcode: es
 status: true
 dependencies:
   module:
     - system
   theme:
-    - jeremiasfisioterapia_bs4
-id: tabs
-theme: jeremiasfisioterapia_bs4
-region: content
-weight: -6
+    - cliniccaremadrid
+_core:
+  default_config_hash: zCYMqymwvv-YbvkFpa6j_-aTb91GYT6jyDr_F_WO1ac
+id: cliniccaremadrid_local_tasks
+theme: cliniccaremadrid
+region: header
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:
@@ -23,4 +25,5 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: '<front>'
+    context_mapping: {  }
+    pages: '/node/*'

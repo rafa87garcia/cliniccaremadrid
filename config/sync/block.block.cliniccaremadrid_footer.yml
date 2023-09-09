@@ -1,0 +1,27 @@
+uuid: 26acb2ca-6cc9-4ba5-a3b0-31ae7dc6610f
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - cliniccaremadrid
+_core:
+  default_config_hash: '-qxpYWaH6p3dgAdH_il-FCIJvDk9Q43v4Ck7kuANyGg'
+id: cliniccaremadrid_footer
+theme: cliniccaremadrid
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

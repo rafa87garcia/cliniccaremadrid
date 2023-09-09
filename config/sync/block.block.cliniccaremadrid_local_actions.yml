@@ -1,0 +1,20 @@
+uuid: 96355379-8b60-45a7-ab05-ba386a4945d8
+langcode: es
+status: true
+dependencies:
+  theme:
+    - cliniccaremadrid
+_core:
+  default_config_hash: pHsxZhRM9JdrenatVjQl102rUeCO2IXhoGtYdpO0aAs
+id: cliniccaremadrid_local_actions
+theme: cliniccaremadrid
+region: header
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

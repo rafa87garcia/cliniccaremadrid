@@ -1,4 +1,4 @@
-uuid: 767d3841-e17e-43e9-9862-f47033d6a5d5
+uuid: bcd9a41b-5579-4702-ad3a-18dfbbf0b128
 langcode: es
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - jeremiasfisioterapia_bs4
+    - cliniccaremadrid
 _core:
-  default_config_hash: cPplcIAp3koNH7EXpozDHcU5n-uO2aCSbjYY5o2nmqY
-id: jeremiasfisioterapia_bs4_main_menu
-theme: jeremiasfisioterapia_bs4
+  default_config_hash: DIGsDZxUSeKuGq29B6OxC1Wrvitf7vHEpDSyePsSBJc
+id: cliniccaremadrid_main_menu
+theme: cliniccaremadrid
 region: navigation_collapsible
 weight: -5
 provider: null

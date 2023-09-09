@@ -2,17 +2,9 @@ uuid: 2a37d80e-3564-4367-9c67-f62e100798ec
 langcode: es
 status: open
 dependencies:
-  module:
-    - antibot
-    - honeypot
   enforced:
     module:
       - webform
-third_party_settings:
-  antibot:
-    antibot: true
-  honeypot:
-    honeypot: true
 _core:
   default_config_hash: CJr5U2B4if_Ff1SZfnNp_csPKwXIynmbUlBC-SmSOAE
 weight: 0
@@ -36,6 +28,9 @@ elements: |-
     '#title': 'Correo electrónico'
     '#required': true
     '#default_value': '[current-user:mail]'
+  telefono:
+    '#type': tel
+    '#title': Teléfono
   subject:
     '#type': select
     '#title': Asunto
@@ -65,7 +60,7 @@ settings:
   page_confirm_path: ''
   page_theme_name: ''
   form_title: source_entity_webform
-  form_submit_once: false
+  form_submit_once: true
   form_open_message: ''
   form_close_message: ''
   form_exception_message: ''
@@ -85,7 +80,7 @@ settings:
   form_novalidate: false
   form_disable_inline_errors: false
   form_required: false
-  form_autofocus: false
+  form_autofocus: true
   form_details_toggle: false
   form_reset: false
   form_access_denied: default
@@ -136,7 +131,7 @@ settings:
   wizard_track: ''
   wizard_prev_button_label: ''
   wizard_next_button_label: ''
-  wizard_toggle: false
+  wizard_toggle: true
   wizard_toggle_show_label: ''
   wizard_toggle_hide_label: ''
   preview: 0
@@ -157,7 +152,7 @@ settings:
   confirmation_type: url_message
   confirmation_url: '<front>'
   confirmation_title: ''
-  confirmation_message: 'Su mensaje ha sido enviado.'
+  confirmation_message: 'Su mensaje ha sido enviado. Nos pondremos en contacto con usted en la mayor brevedad.'
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''
@@ -245,7 +240,7 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: '[current-user:mail]'
+      to_mail: '[webform_submission:values:email:raw]'
       to_options: {  }
       bcc_mail: ''
       bcc_options: {  }
@@ -258,8 +253,8 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
-      subject: '[webform_submission:values:subject]'
-      body: '[webform_submission:values:message:value]'
+      subject: 'Confirmación de envío'
+      body: _default
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
@@ -295,7 +290,7 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
-      subject: '[webform_submission:values:subject]'
+      subject: '[webform_submission:values:subject:raw]'
       body: '[webform_submission:values:message:value]'
       excluded_elements: {  }
       ignore_access: false
