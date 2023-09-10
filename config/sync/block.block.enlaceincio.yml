@@ -1,0 +1,29 @@
+uuid: c1c0eb46-ed79-4cf5-b8bf-a8f688aa4d49
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a92fde01-7323-438c-8cf6-eb3b47c531e2'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - cliniccaremadrid
+third_party_settings:
+  block_class:
+    classes: 'd-flex align-self-center justify-content-center justify-content-md-start my-5'
+id: enlaceincio
+theme: cliniccaremadrid
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:a92fde01-7323-438c-8cf6-eb3b47c531e2'
+settings:
+  id: 'block_content:a92fde01-7323-438c-8cf6-eb3b47c531e2'
+  label: 'Enlace incio'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

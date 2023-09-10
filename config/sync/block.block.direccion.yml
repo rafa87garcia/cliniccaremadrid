@@ -1,0 +1,29 @@
+uuid: d537558b-a20a-4b38-8150-6d32b43cf3cf
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:57837317-79be-4a87-b0f8-b74d6c8c57c4'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - cliniccaremadrid
+third_party_settings:
+  block_class:
+    classes: 'd-flex justify-content-center justify-content-md-start my-5'
+id: direccion
+theme: cliniccaremadrid
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:57837317-79be-4a87-b0f8-b74d6c8c57c4'
+settings:
+  id: 'block_content:57837317-79be-4a87-b0f8-b74d6c8c57c4'
+  label: 'Dirección local'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -91,6 +91,7 @@ module:
   filter: 0
   flood_control: 0
   focal_point: 0
+  geofield: 0
   google_analytics: 0
   google_analytics_reports: 0
   google_analytics_reports_api: 0
@@ -122,6 +123,7 @@ module:
   layout_discovery: 0
   layout_library: 0
   lb_ux: 0
+  leaflet: 0
   length_indicator: 0
   link: 0
   link_attributes: 0
