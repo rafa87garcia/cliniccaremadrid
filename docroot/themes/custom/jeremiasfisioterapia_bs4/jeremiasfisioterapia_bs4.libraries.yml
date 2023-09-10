@@ -26,6 +26,7 @@ framework-rtl:
 bootstrap-styles:
   css:
     base:
+      fonts/google/font-google.css: {}
       css/base/bootstrap.base.css: {}
       css/base/bootstrap5-utilities.base.css: {}
       node_modules/bootstrap-icons/font/bootstrap-icons.css: {}
