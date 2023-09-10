@@ -31,6 +31,7 @@ elements: |-
   telefono:
     '#type': tel
     '#title': Teléfono
+    '#required': true
   subject:
     '#type': select
     '#title': Asunto
@@ -47,6 +48,8 @@ elements: |-
     '#type': webform_actions
     '#title': 'Submit button(s)'
     '#submit__label': Enviar
+    '#submit__attributes':
+      style: mr-3
 css: ''
 javascript: ''
 settings:
@@ -56,7 +59,7 @@ settings:
   ajax_effect: ''
   ajax_speed: null
   page: true
-  page_submit_path: /contacto
+  page_submit_path: ''
   page_confirm_path: ''
   page_theme_name: ''
   form_title: source_entity_webform
